@@ -1,33 +1,11 @@
 import React, { useState } from "react";
+import { headerNav } from "../constants";
 
 const Header = () => {
   const [show, setShow] = useState(false);
   const toggleMenu = () => {
     setShow((prevShow) => !prevShow);
   };
-
-  const headerNav = [
-    {
-      title: "intro",
-      url: "#intro",
-    },
-    {
-      title: "skill",
-      url: "#skill",
-    },
-    {
-      title: "site",
-      url: "#site",
-    },
-    {
-      title: "portfolio",
-      url: "#port",
-    },
-    {
-      title: "contact",
-      url: "#contact",
-    },
-  ];
 
   return (
     <header id="header" role="banner">
