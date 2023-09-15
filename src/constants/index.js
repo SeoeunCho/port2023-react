@@ -121,3 +121,14 @@ export const portText = [
     name: "메가박스 반응형 사이트",
   },
 ];
+
+export const contactText = [
+  {
+    link: "",
+    title: "Phone : 010-8577-4978",
+  },
+  {
+    link: "mailto:jowestsilver@gmail.com",
+    title: "mail : jowestsilver@gmail.com",
+  },
+];
