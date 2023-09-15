@@ -1,3 +1,5 @@
+import project01 from "../assets/img/portfolio01-thumbnail.png";
+
 export const headerNav = [
   {
     title: "intro",
@@ -69,5 +71,53 @@ export const siteText = [
     code: "https://github.com/SeoeunCho/port2023-next",
     view: "https://port2023-next.netlify.app",
     info: ["site coding", "production period : one days", "use stack : next.js, HTML5/SCSS, CSS Variable, gsap, lenis, netlify"],
+  },
+];
+
+export const portText = [
+  {
+    num: "01",
+    title: "첫 번째로 만든 포트폴리오",
+    desc: "2021년도에 처음으로 제작한 포트폴리오입니다. 반응형으로 제작했으며, transition/transform/animation등 다양한 CSS 속성을 사용하여 동적으로 움직이는 요소로 재미를 더했습니다. 이 사이트는 개발자 유튜버 webstoryboy가 주최한 스터디 그룹에서 3개월간 JavaScript, Vue.js, React.js, php등을 배우며 제작한 프로젝트들을 확인해보실 수 있습니다.",
+    img: project01,
+    code: "https://github.com/SeoeunCho/Portfolio01",
+    view: "https://SeoeunCho.github.io/Portfolio01/",
+    name: "첫 번째 포트폴리오",
+  },
+  {
+    num: "02",
+    title: "GC녹십자아이메드 리뉴얼 사이트",
+    desc: "처음으로 제작한 리뉴얼 웹사이트입니다. 모든 과정을 100% 개인작업으로 진행했고, 건강/의학사이트의 특성상 다양한 연령층의 사용자를 위해 검색창과 아이콘, 배너로 빠른 의미전달을 돕고자 했습니다. 홈페이지와 더불어 서브페이지, 모바일버전, 기획서까지 정성을 가득 담아 작업했습니다.",
+    img: project01,
+    code: "https://github.com/SeoeunCho/renewal1",
+    view: "https://SeoeunCho.github.io/renewal1/",
+    name: "GC녹십자아이메드 리뉴얼 포트폴리오",
+  },
+  {
+    num: "03",
+    title: "espoir 리뉴얼 사이트",
+    desc: "에스쁘아의 웹사이트를 통해 제품의 광고효과와 수익창출을 높일 수 있도록 리뉴얼한 작업물입니다. 다양한 상품을 섹션별로 배치하였으며 장바구니/구매/찜하기 아이콘을 배치하였습니다. 기획-디자인-퍼블리싱 그리고 Overview까지 제작했습니다.",
+    img: project01,
+    code: "https://github.com/SeoeunCho/renewal2",
+    view: "https://SeoeunCho.github.io/renewal2/",
+    name: "에스쁘아 리뉴얼 사이트",
+  },
+  {
+    num: "04",
+    title: "노란우산 리뉴얼 사이트",
+    desc: "모바일 웹사이트입니다. 빠른 정보취득을 위해 상단에 로그인과 퀵메뉴, 하단에 고객센터를 구성했습니다. 또한 노란우산을 처음 접한 사용자의 이해를 돕기위해 아코디언 안내메뉴와 유튜브영상을 배치했습니다.",
+    img: project01,
+    code: "https://github.com/SeoeunCho/renewal3_mobile",
+    view: "https://SeoeunCho.github.io/renewal3_mobile/",
+    name: "노란우산 리뉴얼 사이트",
+  },
+  {
+    num: "05",
+    title: "메가박스 반응형 사이트",
+    desc: "웹표준을 준수하며 모든 기기에 유연하게 대응하는 반응형사이트입니다. Swiper 플러그인을 적용하여 배너와 차트 탭, 이미지 슬라이드, 동영상 등 다양하면서도 편리한 기능을 담은 기업형 웹사이트로 작업했습니다.",
+    img: project01,
+    code: "https://github.com/SeoeunCho/MegaboxSite",
+    view: "https://SeoeunCho.github.io/MegaboxSite/",
+    name: "메가박스 반응형 사이트",
   },
 ];
