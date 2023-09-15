@@ -11,7 +11,7 @@ const Header = () => {
     <header id="header" role="banner">
       <div className="header__inner">
         <div className="header__logo">
-          <a href="/">
+          <a href="#intro">
             portfolio<em>react</em>
           </a>
         </div>
