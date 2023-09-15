@@ -132,3 +132,21 @@ export const contactText = [
     title: "mail : jowestsilver@gmail.com",
   },
 ];
+
+export const footerText = [
+  {
+    title: "resume",
+    desc: "노션으로 작성한 이력서를 확인할 수 있습니다. 경력기술서도 첨부되어 있습니다.",
+    link: "https://enchanting-drip-66d.notion.site/661e000688d04abf94686ae02d8983ff?pvs=4",
+  },
+  {
+    title: "github",
+    desc: "깃헙에 오시면 더 많은 소스를 볼 수 있습니다.",
+    link: "https://github.com/SeoeunCho",
+  },
+  {
+    title: "portfolio",
+    desc: "처음으로 제작한 포트폴리오 사이트를 둘러보세요.",
+    link: "https://SeoeunCho.github.io/Portfolio01/",
+  },
+];
