@@ -4,7 +4,7 @@ import about from "../assets/img/about.jpg";
 
 const Intro = () => {
   const introText = {
-    title: "port developer",
+    title: "frontend developer",
     desc: ["talent is", "fount at the end of the", "effort"],
   };
 
