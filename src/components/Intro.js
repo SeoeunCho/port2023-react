@@ -1,13 +1,9 @@
 import React from "react";
 
 import about from "../assets/img/about.jpg";
+import { introText } from "../constants";
 
 const Intro = () => {
-  const introText = {
-    title: "frontend developer",
-    desc: ["talent is", "fount at the end of the", "effort"],
-  };
-
   return (
     <section id="intro">
       <div class="intro__inner">
