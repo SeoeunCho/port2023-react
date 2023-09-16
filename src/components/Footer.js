@@ -21,16 +21,18 @@ const Footer = () => {
             <ul>
               {footerText.map((footer, key) => (
                 <li key={key}>
-                  <a href={footer.link}>{footer.title}</a>
-                  <em>{footer.desc}</em>
+                  <a href={footer.link}>
+                    {footer.title}
+                    <em>{footer.desc}</em>
+                  </a>
                 </li>
               ))}
             </ul>
           </div>
         </div>
         <div className="footer__right">
-          © 2023 <a href="https://github.com/SeoeunCho/port2023-vite">SeoeunCho</a><br />
-          이 사이트는 리액트를 이용하여 제작하였습니다.
+          © 2023 <a href="https://github.com/SeoeunCho/port2023-vite">SeoeunCho</a>
+          <br />이 사이트는 리액트를 이용하여 제작하였습니다.
         </div>
       </div>
     </footer>
