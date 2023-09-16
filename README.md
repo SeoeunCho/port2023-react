@@ -12,7 +12,7 @@ Vite, React, Vue.js, Next.js 4가지 버전의 사이트가 있습니다.
 
 ## 완성작 보기
 
-미리보기 : [DEMO](https://port2023-react.netlify.app/)
+미리보기 : Netlify로 배포예정
 
 ## 사용 스택
 
